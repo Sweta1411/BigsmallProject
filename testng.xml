@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mindtree.TestPack.OfficialMerchantTest"/>
+      <class name="com.mindtree.TestPack.CartTest"/>
+      <class name="com.mindtree.TestPack.HeaderLink"/>
+      <class name="com.mindtree.TestPack.MerchandizeTest"/>
+      <class name="com.mindtree.TestCases.RunnerClass"/>
+      <class name="com.mindtree.TestPack.TextValidationTest"/>
+      <class name="com.mindtree.TestPack.logTask"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

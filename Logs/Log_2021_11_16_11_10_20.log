@@ -1,0 +1,140 @@
+2021-11-16 22:11:21,458 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2021-11-16 22:11:21,475 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2021-11-16 22:11:21,477 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2021-11-16 22:11:21,490 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@460d30c4
+2021-11-16 22:11:21,553 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2021-11-16 22:11:21,554 DEBUG [main] PlatformDependent0:954 - Java version: 11
+2021-11-16 22:11:21,571 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2021-11-16 22:11:21,573 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2021-11-16 22:11:21,575 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+2021-11-16 22:11:21,577 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2021-11-16 22:11:21,579 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2021-11-16 22:11:21,581 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9bf549aa
+2021-11-16 22:11:21,582 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-11-16 22:11:21,582 DEBUG [main] PlatformDependent:1103 - sun.misc.Unsafe: available
+2021-11-16 22:11:21,609 DEBUG [main] PlatformDependent:1205 - maxDirectMemory: 4221239296 bytes (maybe)
+2021-11-16 22:11:21,610 DEBUG [main] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\SHUBHA~1\AppData\Local\Temp (java.io.tmpdir)
+2021-11-16 22:11:21,613 DEBUG [main] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-11-16 22:11:21,614 DEBUG [main] PlatformDependent:1063 - Platform: Windows
+2021-11-16 22:11:21,617 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-11-16 22:11:21,617 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-11-16 22:11:21,620 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-11-16 22:11:21,620 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-11-16 22:11:21,643 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-11-16 22:11:21,691 DEBUG [main] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-11-16 22:11:21,692 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-11-16 22:11:21,944 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2021-11-16 22:11:21,945 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2021-11-16 22:11:22,016 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-11-16 22:11:22,035 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-11-16 22:11:22,036 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-11-16 22:11:22,118 DEBUG [main] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+2021-11-16 22:11:22,118 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+2021-11-16 22:11:22,119 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+2021-11-16 22:11:22,119 DEBUG [main] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+2021-11-16 22:11:22,119 DEBUG [main] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+2021-11-16 22:11:22,120 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+2021-11-16 22:11:22,120 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+2021-11-16 22:11:22,120 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-11-16 22:11:22,121 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-11-16 22:11:22,121 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-11-16 22:11:22,121 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-11-16 22:11:22,122 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-11-16 22:11:22,145 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-11-16 22:11:22,146 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-11-16 22:11:22,146 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-11-16 22:11:23,194 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 1284 (auto-detected)
+2021-11-16 22:11:23,199 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+2021-11-16 22:11:23,200 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+2021-11-16 22:11:24,076 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-11-16 22:11:24,080 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-11-16 22:11:24,719 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: c0:3c:59:ff:fe:0e:86:66 (auto-detected)
+2021-11-16 22:11:24,913 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-11-16 22:11:24,914 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-11-16 22:11:24,915 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b03dd459
+2021-11-16 22:11:24,982 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-11-16 22:11:24,982 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-11-16 22:11:24,983 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-11-16 22:11:24,983 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-11-16 22:11:24,984 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-11-16 22:11:26,806 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2021-11-16 22:11:27,229 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xd449399e7c2616f0
+2021-11-16 22:11:27,573  INFO [main] Base:33 - 
+2021-11-16 22:11:43,060  INFO [main] Base:35 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:11:43,067  INFO [main] Base:38 - Class Instantiated
+2021-11-16 22:11:50,212  INFO [main] Base:41 - Click on the product diplayed
+2021-11-16 22:11:55,615  INFO [main] Base:45 - Add product to the wishList
+2021-11-16 22:11:55,911  INFO [main] Base:48 - Add product to the cart
+2021-11-16 22:12:03,390  INFO [main] Base:67 - 
+2021-11-16 22:12:10,639  INFO [main] Base:69 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:10,646  INFO [main] Base:72 - Class Instatiated
+2021-11-16 22:12:10,824  INFO [main] Base:77 - Number of links present in the page are99
+2021-11-16 22:12:11,541  INFO [main] Base:84 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:12,085  INFO [main] Base:84 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:12,372  INFO [main] Base:84 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:12,757  INFO [main] Base:84 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:17,795  INFO [main] Base:96 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:21,372  INFO [main] Base:96 - Secret Santa Gifts - Secret Santa Gift Ideas– Bigsmall.in
+2021-11-16 22:12:22,249  INFO [main] Base:96 - Christmas Gifts Online (2021) - Unique Christmas Gift, Secret Santa Gifts– Bigsmall.in
+2021-11-16 22:12:22,651  INFO [main] Base:96 - New Unique Gift Online [2021] - Buy/Send Latest, Quirky Unusual Gifts– Bigsmall.in
+2021-11-16 22:12:22,948  INFO [main] Base:96 - Personalized Gifts - Buy Unique Customized Gift Online in India [2021]– Bigsmall.in
+2021-11-16 22:12:23,233  INFO [main] Base:100 - Driver Closed
+2021-11-16 22:12:25,597  INFO [main] Base:109 - 
+2021-11-16 22:12:32,602  INFO [main] Base:113 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:32,606  INFO [main] Base:117 - Class Instantiated
+2021-11-16 22:12:38,063  INFO [main] Base:120 - Clicked on Login
+2021-11-16 22:12:38,682  INFO [main] Base:123 - UserName Entered
+2021-11-16 22:12:38,891  INFO [main] Base:126 - Password Entered
+2021-11-16 22:12:44,118  INFO [main] Base:129 - Clicked on Submit
+2021-11-16 22:12:44,781  INFO [main] Base:132 - Driver Closed
+2021-11-16 22:12:47,286  INFO [main] Base:139 - 
+2021-11-16 22:12:55,393  INFO [main] Base:141 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:12:55,396  INFO [main] Base:144 - Class Instantiated
+2021-11-16 22:12:55,408  INFO [main] Base:147 - Hovering over a Dynamaic Dropdown
+2021-11-16 22:13:05,593  INFO [main] Base:170 - 
+2021-11-16 22:13:13,289  INFO [main] Base:172 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:13,294  INFO [main] Base:175 - Class Instantiated
+2021-11-16 22:13:13,433  INFO [main] Base:180 - TOtal number of links are:5
+2021-11-16 22:13:13,698  INFO [main] Base:186 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:15,888  INFO [main] Base:186 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:16,769  INFO [main] Base:186 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:17,346  INFO [main] Base:186 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:17,502  INFO [main] Base:196 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:13:24,715  INFO [main] Base:196 - Disney Merchandise - Buy Official Disney Merchandise Toys Online[2021]– Bigsmall.in
+2021-11-16 22:13:27,448  INFO [main] Base:196 - Official Funko POP Merchandise - Gift For Funko Pop Action Figures Fan– Bigsmall.in
+2021-11-16 22:13:30,599  INFO [main] Base:196 - Marvel Merchandise - Buy Official Marvel Merchandise Toys Online– Bigsmall.in
+2021-11-16 22:13:31,445  INFO [main] Base:196 - Harry Potter Merchandise - Buy Harry Potter Gifts Online in India– Bigsmall.in
+2021-11-16 22:13:31,686  INFO [main] Base:200 - Driver Closed
+2021-11-16 22:13:35,066  INFO [main] Base:208 - 
+2021-11-16 22:14:09,241  INFO [main] Base:210 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:14:09,245  INFO [main] Base:213 - Class Instantiated
+2021-11-16 22:14:09,324  INFO [main] Base:216 - Getting Text:What's New
+2021-11-16 22:14:09,324  INFO [main] Base:218 - Doing Assertion
+2021-11-16 22:14:09,328  INFO [main] Base:221 - Operation done
+2021-11-16 22:14:09,877  INFO [main] Base:224 - Driver Closed
+2021-11-16 22:14:13,364  INFO [main] Base:232 - 
+2021-11-16 22:14:23,044  INFO [main] Base:234 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:14:23,048  INFO [main] Base:237 - Class Instantiated
+2021-11-16 22:14:33,646  INFO [main] Base:240 - Clicked on Blog:
+2021-11-16 22:14:34,143  INFO [main] Base:243 - Quote is:2. You are the best brother one can have and this feeling makes me feel blessed and protected. I convey you my special prayers and thanks on this wonderful occasion of Bhai Dooj. Have a great day and a wonderful year ahead bhai!
+2021-11-16 22:14:34,144  INFO [main] Base:246 - Operation done
+2021-11-16 22:14:35,627  INFO [main] Base:249 - Driver Closed
+2021-11-16 22:14:39,417  INFO [main] Base:257 - 
+2021-11-16 22:14:49,938  INFO [main] Base:259 - Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+2021-11-16 22:14:49,945  INFO [main] Base:262 - Class Instantiated
+2021-11-16 22:14:50,995  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:51,126  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:51,264  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:51,370  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:51,606  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:51,709  INFO [main] Base:271 - new Products are:
+2021-11-16 22:14:52,280  INFO [main] Base:275 - Driver Closed
+2021-11-16 22:14:52,975 DEBUG [AsyncHttpClient-1-12] PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-12
+2021-11-16 22:14:52,976 DEBUG [AsyncHttpClient-1-10] PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-10
+2021-11-16 22:14:52,978 DEBUG [AsyncHttpClient-1-14] PoolThreadCache:224 - Freed 20 thread-local buffer(s) from thread: AsyncHttpClient-1-14
+2021-11-16 22:14:52,978 DEBUG [AsyncHttpClient-1-15] PoolThreadCache:224 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-15
+2021-11-16 22:14:52,980 DEBUG [AsyncHttpClient-1-5] PoolThreadCache:224 - Freed 22 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+2021-11-16 22:14:52,989 DEBUG [AsyncHttpClient-1-2] PoolThreadCache:224 - Freed 19 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+2021-11-16 22:14:52,976 DEBUG [AsyncHttpClient-1-6] PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-6
+2021-11-16 22:14:52,980 DEBUG [AsyncHttpClient-1-11] PoolThreadCache:224 - Freed 18 thread-local buffer(s) from thread: AsyncHttpClient-1-11
+2021-11-16 22:14:52,985 DEBUG [AsyncHttpClient-1-3] PoolThreadCache:224 - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-3
